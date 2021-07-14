@@ -7,14 +7,13 @@ body{
 .container {
     background-color: #30343F;
     text-align: center;
-    
 }
 
 .startquiz{
     background-color: #273469;
     color: #FAFAFF;
     width: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 2px solid #FAFAFF;
     padding:10px;
     font-size: 20px;
