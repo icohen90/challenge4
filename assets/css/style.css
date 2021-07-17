@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    background-color:#023047;
+    color: #ffb703;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffb703;
+}
+
+header{
+    background-color: #219ebc;
+    border: 5px solid #fb8500;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    
+}
+
+.welcome {
+    background-color: #219ebc;
+    border: 5px solid #fb8500;
+    border-radius: 15px;
+    margin: 40px auto;
+    padding: 40px 50px;
+}
+
+.welcome p {
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#t {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 50px;
+    border: 5px solid #fb8500;
+    border-radius: 15px;
+    background-color: #219ebc;
+    color: #ffb703;
+    outline: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #023047;
+    color: #8ecae6;
+}
+
+/* instruction card */
+
+.start {
+    text-align: center;
+}
+
+#start-btn {
+    width: 380px;
+    margin-top: 25px;
+    padding: 20px auto;
+}
+/* end instruction card */
+
+/* start quiz card */
+
+.acontainer {
+    display: grid;
+    width: 100%;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.questions {
+    text-align: center;
+}
+
+.feedback {
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.qheader {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.correct {
+    background-color: #8ecae6;
+}
+
+.correct .feedback {
+    color: #8ecae6;
+}
+
+.incorrect {
+    background-color: #fb8500;
+}
+
+.incorrect .feedback {
+    color: #fb8500;
+}
+
+.hide {
+    display: none;
+}
+
+.end {
+    text-align: center;
+}
+
+/* end quiz card */
+
+.name-input {
+    width: 400px;
+    display: block;
+    margin: 35px auto 10px auto;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+#name-btn {
+    width: 400px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #219ebc;
+    border: 5px solid #fb8500;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 40px auto 20px auto;
+}
+
+.scontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
