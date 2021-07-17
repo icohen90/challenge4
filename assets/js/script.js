@@ -53,6 +53,7 @@ var startBtn = document.querySelector("#start-btn");
 var quizEl = document.querySelector(".quiz-container");
 var endEl = document.querySelector(".end");
 var scoreEl = document.querySelector(".score");
+var scoreTableEl = document.querySelector("#scoretable");
 var counter = 0;
 var currentscore = 99;
 var highScores = [];
@@ -169,22 +170,5 @@ var saveScore = function() {
     }
 }
 
-var loadScores = function() { 
-    highScores = localStorage.getItem("score");
-
-    if (!highScores) {
-        highScores = []
-
-        var noScores = document.createElement("div");
-        noScores.setAttribute("style", "text-align: center");
-        noScores.textContent = "There are no scores yet!  Play the quiz to add your score!"
-        document.querySelector("#score-card").appendChild(noScores);
-
-        return false;
-    }
-
-    highScores = JSON.parse(highScores);
-    highScores.sort(compare);
-}
 
 startBtn.addEventListener("click", createQuiz);
