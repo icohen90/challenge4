@@ -53,7 +53,6 @@ var startBtn = document.querySelector("#start-btn");
 var quizEl = document.querySelector(".quiz-container");
 var endEl = document.querySelector(".end");
 var scoreEl = document.querySelector(".score");
-var scoreTableEl = document.querySelector("#scoretable");
 var counter = 0;
 var currentscore = 99;
 var highScores = [];
@@ -167,8 +166,8 @@ var saveScore = function() {
         highScores.push(scoreObj);
         document.querySelector("#score-form").reset();
         localStorage.setItem("scores", JSON.stringify(highScores));
+        document.location.href = "highscores.html";
     }
 }
-
 
 startBtn.addEventListener("click", createQuiz);

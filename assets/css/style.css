@@ -164,3 +164,23 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+#scorecard {
+    background-color: #219ebc;
+    border: 5px solid #fb8500;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px auto 20px auto;
+}
+
+#scoretable{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #fb8500;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.table-score-data {
+    text-align: center;
+}
