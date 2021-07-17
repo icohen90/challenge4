@@ -1,32 +1,53 @@
 var quizQuestions = [
     {
         question: "What does HTML stand for?",
-        choices: ["Hyper Tool Market System", "Hyper Text Markup Language", "Hyper Text Mark Learning", "Hyper Tool Marketing System"],
-        answer: "Hyper Text Markup Language"
+        a: "Hyper Tool Market System",
+        b: "Hyper Text Markup Language",
+        c: "Hyper Text Mark Learning", 
+        d: "Hyper Tool Marketing System",
+        answer: "b"
     },
     {
         question: "In what tag does the main content of the webpage belong in?",
-        choices: ["<main>", "<section>", "<article>", "<body>"],
-        answer: "<body>"
+        a: "<main>", 
+        b: "<section>", 
+        c: "<article>", 
+        d: "<body>",
+        answer: "d"
     },
     {
         question: "How many different heading tags are there?",
-        choices: ["6", "10", "12", "8"],
-        answer: "6"
+        a: "6", 
+        b: "10", 
+        c: "12", 
+        d: "8",
+        answer: "a"
     },
     {
         question: "What tag do you use to make an unordered list?",
-        choices: ["<ul>", "<ol>", "<li>", "<uli>"],
-        answer: "<ul>"
+        a: "<ul>",
+        b: "<ol>", 
+        c: "<li>", 
+        d:"<uli>",
+        answer: "a"
     },
     {
         question: "What is the correct syntax to create a hyperlink?",
-        choices: ["<a src=", "<a class=", "<a href=", "<a img="],
-        answer: "<a href="
+        a: "<a src=", 
+        b: "<a class=", 
+        c: "<a href=",
+        d: "<a img=",
+        answer: "c"
     },
     {
         question: "Who is making the Web standards?",
-        choices: ["Mozilla", "Microsoft", "Google", "The World Wide Web Consortium"],
-        answer: "The World Wide Web Consortium"
+        a: "Mozilla", 
+        b: "Microsoft", 
+        c:"Google", 
+        d: "The World Wide Web Consortium",
+        answer: "d"
     }
 ];
+
+
+
